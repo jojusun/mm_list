@@ -78,6 +78,10 @@ body, ul, li {
     cursor : pointer;
 }
 
+.add-todo > .add-button:hover{
+    background-color: rgb(127, 159, 196);
+}
+
 .add-todo > .input-todo {
     font-family: 'Black Han Sans', sans-serif;
     font-size: 20px;
@@ -136,6 +140,10 @@ body, ul, li {
     cursor : pointer;
 }
 
+.todo-list > .add-todo-list > .b1:hover{
+    background-color: rgb(127, 159, 196);
+}
+
 .todo-list > .add-todo-list > .b2{
     margin-left: 2px;
     margin:8px;
@@ -152,4 +160,10 @@ body, ul, li {
     cursor : pointer;
 }
 
+.todo-list > .add-todo-list > .b2:hover {
+    background-color: rgb(127, 159, 196);
+}
 
+#addcolor {
+    background-color: #fff;
+}
