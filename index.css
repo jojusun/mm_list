@@ -1,3 +1,5 @@
+
+
 body, ul, li {
     margin:0;
     padding:0;
@@ -6,9 +8,7 @@ body, ul, li {
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
-.body {
 
-}
 .wrap {
     margin-top: 0px;
     width:100%;
@@ -21,7 +21,7 @@ body, ul, li {
     padding-top: 80px;
     width: 100%;
     height: 150px;
-    background-color: rgb(56, 45, 109);
+    background-color: rgb(123, 175, 196);
 }
 
 .head > .mm-mm {
@@ -37,3 +37,119 @@ body, ul, li {
     font-weight: 100;
     text-align: center;
 }
+
+
+
+.nav > .list {
+    margin-left: 23%;
+
+    padding: 10px;
+    text-align: center;
+    width : 50%;
+    font-size: 23px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 100;
+    background-color: rgb(181, 213, 214);
+    border-radius: 10px;
+}
+
+
+.main > .add-todo {
+    margin-top: 20px;
+    margin-left : 12%;
+    height : 70px;
+    width: 75%;
+    background-color: rgb(162, 204, 211);
+    border-radius: 10px;
+    display: flex;
+}
+
+.add-todo > .add-button{
+    margin:8px;
+    margin-top:8px;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border : none;
+    width:20%;
+    height: 77%;
+    background-color: rgb(181, 213, 214);
+    cursor : pointer;
+}
+
+.add-todo > .input-todo {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border : none;
+    padding: 10px;
+    background-color: rgb(181, 213, 214);
+    width :80%;
+    height: 50%;
+}
+
+.main > .real-last > .todo-list {
+    margin-top : 10px;
+    margin-left : 12%;
+    text-align: center;
+    height : 50%;
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgb(162, 204, 211);
+}
+
+.todo-list > .add-todo-list {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.add-todo-list > .add-list {
+    padding: 3px;
+    margin-left: 8px;
+    font-size: 20px;
+    height: 100%;
+    width: 80%;
+    background-color: rgb(181, 213, 214);
+    border-radius: 10px;
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+}
+
+
+.todo-list > .add-todo-list > .b1{
+    margin:8px;
+    margin-right: 1px;
+    margin-top:8px;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    border : none;
+    width:10%;
+    height: 20%;
+    background-color: rgb(181, 213, 214);
+    cursor : pointer;
+}
+
+.todo-list > .add-todo-list > .b2{
+    margin-left: 2px;
+    margin:8px;
+    margin-right: 8px;
+    margin-top:8px;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    border : none;
+    width:10%;
+    height: 0%;
+    background-color: rgb(181, 213, 214);
+    cursor : pointer;
+}
+
+
